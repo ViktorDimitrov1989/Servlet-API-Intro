@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="softuniServlets">
+    <output-path>$PROJECT_DIR$/out/artifacts/softuni</output-path>
+    <root id="archive" name="softuniServlets.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="servletapilab" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="servletapilab/web/Web" />
+      <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:5.2.13.Final" />
+      <element id="library" level="project" name="Maven: mysql:mysql-connector-java:6.0.6" />
+    </root>
+  </artifact>
+</component>
